@@ -44,7 +44,6 @@ MY_CFLAGS_Debug := \
 	-mfpu=neon \
 	-Wno-format \
 	-fno-tree-sra \
-	-fuse-ld=gold \
 	-Wno-psabi \
 	-ffunction-sections \
 	-funwind-tables \
@@ -133,7 +132,6 @@ MY_CFLAGS_Release := \
 	-mfpu=neon \
 	-Wno-format \
 	-fno-tree-sra \
-	-fuse-ld=gold \
 	-Wno-psabi \
 	-ffunction-sections \
 	-funwind-tables \
