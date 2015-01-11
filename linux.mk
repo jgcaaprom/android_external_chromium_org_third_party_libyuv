@@ -2,7 +2,7 @@
 # make -f linux.mk CXX=clang++
 
 CXX?=g++
-CXXFLAGS?=-O2 -fomit-frame-pointer
+CXXFLAGS?=-w -O3 -fomit-frame-pointer
 CXXFLAGS+=-Iinclude/
 
 LOCAL_OBJ_FILES := \
